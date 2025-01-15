@@ -1,0 +1,21 @@
+*Difference Between absolute and relative positioning
+
+absolute -
+     when we apply this property then element not effect the position of other element it became a ghost element and 
+     overlap with other element and then we can use values like top, right, bottom and left to adjust its position but 
+     in this case value are depends on its last parent means its ancestor parent outermost parent it calculate value form top, 
+      of its ancestor
+
+      example - 
+            If we give top:100px; after applying this property then it calculate 100px from top side of its ancestor (outermost parent) 
+
+
+
+relative -
+    When we apply this property then element it effect to other element and this property also allow us to use top,
+    right, bottom and left but in this case it move from its original or normal position so in this way it original
+    space is still there so its effect the layout 
+
+    example - 
+            If we give top:100px; after applying this property then it calculate 100px from its original position like
+            form top edge or top side of applied element

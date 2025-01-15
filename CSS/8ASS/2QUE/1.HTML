@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a 3D cube using the transform</title>
+    <!-- CSS -->
+    <style>
+        .container{
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            text-align: center;
+        }
+        h2{
+            margin-top: 60px;
+        }
+        .side{
+            margin: 100px;
+            height: 200px;
+            width: 200px;
+            background-color: #0062ff;
+            opacity: 0.6;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            /* transform: translate(-50%,-50%); */
+            border: 2px solid #000;
+        }
+        .side1{
+            
+            transform:translateZ(100px);
+        }
+        .side2{
+            transform: rotateY(90deg) translateZ(100px);
+        }
+        .side3{
+            transform: rotateY(-90deg) translateZ(100px);
+        }
+        .side4{
+            transform: rotateY(180deg) translateZ(100px);
+        }
+        .side5{
+            transform: rotateX(90deg) translateZ(100px);
+        }
+        .side6{
+            transform: rotateX(-90deg) translateZ(100px);
+        }
+        .box{
+            transform: rotateX(20deg) rotateY(40deg);
+            transform-style: preserve-3d;
+            width: 200px;
+            height: 200px;
+            position: relative;
+            /* animation: rotate 10s infinite;  */
+        }
+     
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="side side1"><h2>FRONT</h2></div>
+            <div class="side side2"><h2>BACK</h2></div>
+            <div class="side side3"><h2>RIGHT</h2></div>
+            <div class="side side4"><h2>LEFT</h2></div>
+            <div class="side side5"><h2>TOP</h2></div>
+            <div class="side side6"><h2>BOTTOM</h2></div>
+        </div>
+    </div>
+</body>
+</html>

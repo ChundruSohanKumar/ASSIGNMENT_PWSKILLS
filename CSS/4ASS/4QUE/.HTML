@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Cards page</title>
+    <!-- CSS -->
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #F4F2FD;
+        }
+        .container{
+            overflow: hidden;
+            display: flex;
+            gap: 32px;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+        }
+        .free{
+            width: 260px;
+            height: 360px;
+            background-color: #fff;
+            border-radius: 8px;
+            filter: drop-shadow( 1px 1px 5px #888888);
+        }
+        .free p {
+            display: flex;
+            align-items: center;
+        }
+        .Basic p {
+            display: flex;
+            align-items: center;
+        }
+        button{
+            display: block;
+            margin: 0 auto;
+            margin-top: 25px;
+            background-color: #202842;
+            color: #fff;
+            padding: 8px 24px;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+        h2{
+            font-size: 25px;
+            padding: 0 30px;
+        }
+        p{
+         font-size:15px;
+         padding: 0 30px;
+        }
+        p>img{
+            width: 22px;
+            padding:0 2px;
+        }
+        .free h2:nth-child(3){
+            font-weight: 100;
+        }
+        .Basic h2:nth-child(3){
+            font-weight: 100;
+        }
+        .Basic{
+            width: 260px;
+            height: 360px;
+            background-color: #202842;
+            color: #fff;
+            border-radius: 8px;
+            filter: drop-shadow( 1px 1px 5px #888888);
+        }
+        .button{
+            display: block;
+            margin: 0 auto;
+            margin-top: 25px;
+            background-color:#fff;
+            color:  #202842;
+            padding: 8px 24px;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="free">
+            <h2>Free Plan</h2>
+            <p>For personal</p>
+            <h2>&dollar;0</h2>
+            <p><img src="./png/Frame.png" alt="check">1 User</p>
+            <p><img src="./png/Frame.png" alt="check">4 Web Mail</p>
+            <p><img src="./png/Frame.png" alt="check">Responsive Website</p>
+            <p><img src="./png/Frame.png" alt="check">Free SSL</p>
+            <button>Subscribe Now</button>
+        </div>
+        <div class="Basic">
+            <h2>Basic Plan</h2>
+            <p>For small business</p>
+            <h2>&dollar;29</h2>
+            <p><img src="./png/Frame 2.png" alt="check">4 User</p>
+            <p><img src="./png/Frame 2.png" alt="check">10 Web Mail</p>
+            <p><img src="./png/Frame 2.png" alt="check">Responsive Website</p>
+            <p><img src="./png/Frame 2.png" alt="check">Free SSL</p>
+            <button class="button">Subscribe Now</button>
+        </div>
+        <div class="free">
+            <h2>Pro Plan</h2>
+            <p>For enterprise</p>
+            <h2>&dollar;0</h2>
+            <p><img src="./png/Frame.png" alt="check">Unlimited User</p>
+            <p><img src="./png/Frame.png" alt="check">Unlimited Web Mail</p>
+            <p><img src="./png/Frame.png" alt="check">Responsive Website</p>
+            <p><img src="./png/Frame.png" alt="check">Free SSL + SEO</p>
+            <button>Subscribe Now</button>
+        </div>
+        
+    </div>
+</body>
+</html>

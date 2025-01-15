@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an image gallery</title>
+    <!-- CSS -->
+    <style>
+       *{
+            padding: 0;
+            margin: 0;
+            overflow: auto;
+        }
+        html,body{
+            height: 100vh;
+            width: 100vw;
+        } 
+        img{
+            width: 100%;
+        }
+        .images{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+        }
+        @media (max-width:800px) {
+            .images{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+        @media (max-width:500px) {
+            .images{
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="images">
+        <div class="img">
+            <img src="./img/new york.png" alt="new_york">
+        </div>
+        <div class="img">
+            <img src="./img/new york.png" alt="new_york">
+        </div>
+        <div class="img">
+            <img src="./img/new york.png" alt="new_york">
+        </div>
+    </div>
+</body>
+</html>

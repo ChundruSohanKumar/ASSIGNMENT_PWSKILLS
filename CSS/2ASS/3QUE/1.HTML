@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar with Border style</title>
+    <!-- CSS -->
+<style>
+    header{
+        background-color: #6495ED;
+        padding: 10px;
+        text-align: center;
+    }
+    ul li {
+        display: inline;
+        margin:5px;
+        padding: 20px;
+        font-size: large;  /* add on from my side */
+    }
+
+    a{
+        color: #fff;
+        padding: 10px;
+        border-color: #000;
+    }
+
+    a:hover{
+        color:#ff0000;
+    }
+
+   /* Different border styles */
+    li:nth-child(1) a{
+        border-radius: 10px;         /*add on from my side*/
+        border-style: dashed;
+
+        /* border: 2px dashed #ff0000; */
+        /* this is another way to style the border */
+        
+    }
+    li:nth-child(2) a{
+        border-radius: 10px;         /*add on from my side*/
+        border-style: dotted;
+    }
+    li:nth-child(3) a{
+        border-radius: 10px;         /*add on from my side*/
+        border-style: groove;
+    }
+    li:nth-child(4) a{
+        border-radius: 10px;         /*add on from my side*/
+        border-style: double;
+    }
+    li:nth-child(5) a{
+        border-radius: 10px;         /*add on from my side*/
+        border-style: inset;
+    }
+ 
+
+</style>
+
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">About Us</a></li>
+            <li> <a href="#">Contact</a></li>
+            <li> <a href="#">Blog</a></li>
+            <li> <a href="#">Log in</a></li>
+        </ul>
+    </nav>
+</header>
+
+</body>
+</html>

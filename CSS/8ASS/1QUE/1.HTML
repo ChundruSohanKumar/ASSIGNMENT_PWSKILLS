@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons and var()</title>
+    <!-- CSS -->
+    <style>
+    :root{
+        --Primary:#00b7ff;
+        --Secondary:#6c757d;
+    }
+    #primaryBtn{
+        background-color: var(--Primary);
+        color: #fff;
+        border: none;
+        padding: 5px 20px;
+    }
+    #secondaryBtn{
+        background-color: var(--Secondary);
+        color: #fff;
+        border: none;
+        padding: 5px 20px;
+    }
+    </style>
+</head>
+<body>
+    <p>var () - we use var function to store any property and then we can use <br>
+      that property anywhere in body if we mentioned in using :root because <br>
+      its a global scope or we can say its a root of document and also its easy for <br>
+      to make changes after some time we don't need to find specific tags to change <br>
+      also its helps in DOM manipulation its easy to target these functions  </p>
+    <div class="container">
+        <button id="primaryBtn">Primary Button</button>
+        <button id="secondaryBtn">Secondary Button</button>
+    </div>
+</body>
+</html>

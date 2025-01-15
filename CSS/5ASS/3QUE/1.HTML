@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid auto row and Grid auto Column</title>
+</head>
+<!-- CSS -->
+<style>
+    body{
+        margin: auto;
+        padding: 0;
+        box-sizing: border-box;
+        height: 100vh;
+        width: 90vw;
+    }
+    .c-container div{
+        background-color: rgb(255, 147, 147);
+    }
+    .r-container div{
+        background-color: rgb(147, 161, 255);
+    }
+   .r-container{
+    margin: 50px 0;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 50px;
+    /* 1st row having a 50px hard coded value */
+    grid-auto-rows:100px;
+    /* after 2nd row every new row going to be at 100px automatically*/
+   } 
+   .c-container{
+    margin: 50px 0;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(1,100px);
+    /* its set a height of 1st row to 100px */
+    grid-auto-columns:500px;
+    /* its set width of all columns 500px */
+   } 
+</style>
+<body>
+    <p> its set a height of 1st row to 100px <br>
+        its set width of all columns 500px</p>
+        <div class="c-container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+        </div>
+        <p>1st row having a 50px hard coded value <br>
+           after 2nd row every new row going to be at 100px automatically</p>
+    <div class="r-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+</body>
+</html>

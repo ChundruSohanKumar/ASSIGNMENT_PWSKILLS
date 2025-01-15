@@ -1,0 +1,19 @@
+
+
+* Flex Properties Explanation -
+
+1) justify-content - this Property use to adjust content horizontally to main (x-axis) axis
+                    here we have values like center, space-between, space-around etc
+
+2) align-items - this Property use aline content horizontally to cross (y-axis) axis
+                 also we have to define a hight if we want to aline whole content
+                 here we have values like center, flex-start and flex-end etc
+ 
+3) gap - this flex property use to set gap between the element we use this property on parent
+
+4) flex-direction - this property use to change OR reverse direction of axis we can play many ways with this property
+                    we have values like columns , row-reverse etc 
+
+5) flex-warp -   this property use to warp content there are other values as well like 
+                 no warp, warp reverse and no warp make all content within the that row 
+                 all this property mostly use to make responsive layout but there are so many use case

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form with various input elements</title>
+    <!-- styling with CSS -->
+    <style>
+
+        div{
+            width: 500px;
+            height: 300px;
+            background-color: rgba(189, 240, 250, 0.404);
+            margin: 50px auto;
+            border-radius: 10px;
+            text-align: center;
+        }
+        form{
+            padding: 20px;
+        }
+        input{
+            display: inline-block;
+            background-color: rgb(143, 227, 255);
+            border: none;
+            border-radius: 10px;
+            width: 70%;
+            margin: 10px;
+            padding: 10px;
+        }
+        label{
+            display: inline-block;
+            width: 80px;
+        }
+        .button{
+            background-color: rgba(108, 108, 248, 0.514);
+            cursor: pointer;
+            margin-top: 30px;
+        }
+        /* Opacity */
+        #password{
+            opacity: 0.5;
+        }
+    
+    </style>
+</head>
+<body>
+    <div>
+        <form action="">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Username" required>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email" required>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Password" required>
+            <br>
+            <input type="submit" class="button" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

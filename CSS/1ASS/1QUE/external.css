@@ -1,0 +1,20 @@
+.for_external{
+    background-color: #2d4857;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.for_external h2{
+    color: #fa00e9;
+}
+.for_external p{
+    color: #1ce3cf;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+/* targeting same element with external css */
+
+.External{
+    background-color: #8a8a8a;
+}

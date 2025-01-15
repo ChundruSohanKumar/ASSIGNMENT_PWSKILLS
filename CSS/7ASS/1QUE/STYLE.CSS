@@ -1,0 +1,40 @@
+html,body{
+    height: 100vh;
+    width: 100vw;
+    font-family: sans-serif;
+}
+nav>div>ul>li>a{
+    color: red;
+}
+nav>h2:first-child{
+    background-color: #ccc;
+    color: blue;
+}
+nav>p:nth-child(3){
+    color: red;
+}
+a[href]{
+    text-decoration: none;
+    color: red;
+}
+a[class="active"] {
+    color: blue;
+    text-decoration: underline;
+}
+
+a[target="_self"]{
+    background-color: #ccc;
+}
+
+nav p:last-child::after{
+    content: "...";
+}
+
+nav div ul li::marker{
+    color: green;
+}
+
+nav>p:nth-child(4)::first-letter{
+    color: red;
+    font-size: 30px;
+}

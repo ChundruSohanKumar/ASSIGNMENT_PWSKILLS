@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 04</title>
+    <!-- CSS -->
+    <style>
+    body{
+        margin: auto;
+        padding: 0;
+        box-sizing: border-box;
+        height: 100vh;
+        width: 80vw;
+        overflow: hidden;
+    }
+    .container div:nth-child(odd){
+        background-color: #4f4f4f;
+        color: #fff;
+        padding: 20px 50px;
+        border-radius: 5px;
+    }
+    .container div:nth-child(even){
+        background-color: #ccc;
+        padding: 20px 50px;
+        border-radius: 5px;
+    }
+    .container{
+        border: 1px solid #686868;
+        margin: 20px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: 100px 100px;
+        gap: 10px;
+        font-size: 30px;
+    }
+    .box3{
+        order: -2;
+    }
+    .box1{
+        order: 1;
+    }
+    .box2{
+        order: 2;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">1</div>
+        <div class="box2">2</div>
+        <div class="box3">3</div>
+        <div class="box4">4</div>
+        <div class="box5">5</div>
+        <div class="box6">6</div>
+        <div class="box7">7</div>
+        <div class="box8">8</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple page with some div tags</title>
+
+    <!-- External CSS link -->
+
+    <link rel="stylesheet" href="./external.css">
+
+    <!-- Internal CSS -->
+    <style>
+        .for_internal{
+            background-color: #284b27;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        .for_internal h2{
+            color: #bf6cfa;
+        }
+        .for_internal p{
+            color: #fde968;
+            font-size: 20px;
+            text-transform: capitalize;
+        }
+
+        /* targeting same element by internal css */
+
+        .internal {
+            background-color: #cbf900
+        }
+    </style>
+</head>
+<body>
+    <!-- this div use for styling element by inline css -->
+
+    <div style="background-color: #593434; padding: 10px; border-radius: 10px; margin: 10px;">
+        <h2 style="color: #f95252;">inline CSS Demo</h2>
+        <p style="font-size: 20px; text-transform: capitalize; color: azure;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, placeat.</p>
+    </div>
+
+
+
+    <!-- this div use for styling element by internal css -->
+
+    <div class="for_internal">
+        <h2>internal CSS Demo</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, placeat.</p>
+    </div>
+
+
+
+    <!-- this div use for styling element by external line css -->
+    <div class="for_external">
+        <h2>external CSS Demo</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, placeat.</p>
+    </div>
+
+
+
+    <!-- Explaination of when we style same element with inline, internal and external-->
+    <div style="background-color:#8a8a8a; padding: 15px; border-radius: 15px; margin: 10px;">
+        <h2>Styling Same element with inline, internal and external</h2>
+        <ul>
+            <li>First priority goes to inline CSS </li>
+            <li>Second priority goes to internal CSS </li>
+            <li>Third priority goes to external CSS </li>
+           
+        </ul>
+    </div>
+
+
+</body>
+</html>

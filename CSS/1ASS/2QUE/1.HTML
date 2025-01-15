@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML page with 7ultiple paragraphs</title>
+</head>
+<!-- CSS styling -->
+<style>
+    .paragraph{
+        color: blue;
+    }
+    .paragraph__information{
+        background-color: #dadada;
+        padding: 10px;
+    }
+    .paragraph--note{
+        background-color: #c0c0c0;
+        padding: 10px;
+        color: #9e0101;
+        text-transform: uppercase;
+    }
+</style>
+<body>
+    <div>
+        <p class="paragraph"> This is the normal paragraph this is define Block in BEM (block element modifier)</p>
+        <p class="paragraph paragraph__information"> This is the information about paragraph it represent a element additional information and it stant for Element in BEM (block element modifier)</p>
+        <p class="paragraph paragraph--note">this is the paragraph with usefull NOTE and it is modifier it define note and it stand for modifier in BEM (block element modifier) </p>
+    </div>
+</body>
+</html>

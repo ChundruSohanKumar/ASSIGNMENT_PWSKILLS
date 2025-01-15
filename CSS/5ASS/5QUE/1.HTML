@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>justify self and items</title>
+    <!-- CSS -->
+    <style>
+    body{
+        margin: 50px auto;
+        padding: 0;
+        box-sizing: border-box;
+        height: 100vh;
+        width: 80vw;
+        overflow: hidden;
+        
+    }
+    .items{
+        border: 1px solid black;
+        margin: 20px;
+    }
+    .self{
+        border: 1px solid black;
+        margin: 20px;
+    }
+    .items div{
+        background-color: #93f6ff;
+    }
+    .self div{
+        background-color: #93ffbc;
+    }
+    .items{
+        display: grid;
+        gap: 10px;
+        justify-items: center;
+        padding: 20px;
+    }
+    .self{
+        display: grid;
+        gap: 10px;
+        padding: 20px;
+    }
+    .self div:first-child{
+        justify-self: start;
+    }
+    .self div:last-child{
+        justify-self: end;
+    }
+    .self div:nth-child(2){
+        justify-self: center;
+    }
+
+    </style>
+</head>
+<body>
+    <p>justify-items is applied to the all items inside the parent</p>
+    <div class="items">
+        <div>item one centered</div>
+        <div>item two centered</div>
+        <div>item three centered</div>
+        <div>item four centered</div>
+    </div>
+    <p>justify-self is only applied to the selected items inside the parent</p>
+    <div class="self">
+        <div>item one - at start</div>
+        <div>item two - at center</div>
+        <div>item three</div>
+        <div>item four - at end</div>
+    </div>
+</body>
+</html>

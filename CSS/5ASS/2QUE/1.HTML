@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A, B, C,and D layout </title>
+    <!-- CSS -->
+    <style>
+        body{
+            width: 90vw;
+            height: 100vh;
+            margin: auto;
+        }
+        .container {
+            margin: 50px auto;
+            padding: 10px;
+            height: 500px;
+            width: 1000px;
+            border: 2px solid #000;
+            display: grid;
+            gap: 20px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .box-A,.box-B,.box-C,.box-D{
+            background-color: #FFE4C4;
+            padding: 20px;
+            border-radius: 20px;
+            font-size: 50px;
+        }
+        .box-A{
+            grid-column: 1/3;
+        }
+        .box-B{
+            grid-column: 3/3;
+            grid-row:1/3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">        
+        <div class="box-A">A</div>
+        <div class="box-B">B</div>
+        <div class="box-C">C</div>
+        <div class="box-D">D</div>
+    </div>
+</body>
+</html>

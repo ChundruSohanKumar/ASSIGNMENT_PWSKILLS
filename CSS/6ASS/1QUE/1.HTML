@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a simple webpage</title>
+    <!-- CSS -->
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        html,body{
+            height: 100vh;
+            width: 100vw;
+            text-align: center;
+        }
+        header{
+            background-color: #ccc;
+            height: 15vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        main h3{
+            background-color: #ddfeff;
+            height: calc(85vh - 50px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        main h4{
+            background-color: #ffdfdf;
+            height:50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @media (max-width:600px) {
+            header{
+                background-color: #0000FF;
+                color: #fff;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Responsive Header</h1>
+    </header>
+    <main>
+        <h3>Main Content</h3>
+        <h4>Footer</h4>
+    </main>
+</body>
+</html>

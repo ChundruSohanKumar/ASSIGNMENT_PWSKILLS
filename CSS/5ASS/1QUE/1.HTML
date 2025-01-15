@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Task 1</title>
+    <!-- css -->
+    <style>
+        html,body{
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+        img{
+            width:100%;
+            height: 100%;
+        }
+        .container{
+            width: 99%;
+            height: 100vh;
+            display: grid;
+            gap: 10px;
+            grid-template-rows: repeat(3,250px);
+            grid-template-areas: 
+            'imageOne imageOne imageTwo'
+            'imageThree imageFour imageSix'
+            'imageThree imageFive imageSix'
+            ;
+        }
+        .imgOne{
+            grid-area:imageOne;
+        }
+        .imgTwo{
+            grid-area: imageTwo;
+        }
+        .imgThree{
+            grid-area: imageThree;
+        }
+        .imgFour{
+            grid-area: imageFour;
+        }
+        .imgFive{
+            grid-area: imageFive;
+        }
+        .imgSix{
+            grid-area: imageSix;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="imgOne">
+            <img src="./img/asian-paints.jpg" alt="asian-paints">
+        </div>
+
+        <div class="imgTwo">
+            <img src="./img/3-asian-paints.jpg" alt="asian-paints3">
+        </div>
+
+        <div class="imgThree">
+            <img src="./img/doctor.jpg" alt="doctor">
+        </div>
+
+        <div class="imgFour">
+            <img src="./img/green.png" alt="green">
+        </div>
+        
+        <div class="imgFive">
+            <img src="./img/photo-6074935.jpeg" alt="injection">
+        </div>
+
+        <div class="imgSix">
+            <img src="./img/Dupixent®-approved-by-EC-as.jpg" alt="Dupixent®">
+        </div>
+
+    </div>
+
+</body>
+</html>

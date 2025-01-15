@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family:inter;
+}
+body{
+    max-width: 1460px;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+/* removing Stylings */
+a{
+    text-decoration: none;
+    color: #000;
+}
+li{
+    list-style: none;
+}
+
+/* Styling Section One */
+.logos img{
+    margin: 0 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 50px 0;
+}
+.navbar nav ul{
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+}
+.button{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+/* styling buttons */
+#log-in {
+    padding: 11px 16px;
+    background-color: #FB792B;
+    border-radius: 5px;
+    color:#fff;
+    border: none;
+    cursor: pointer;
+}
+#register {
+    padding: 11px 16px;
+    border-radius: 5px;
+    background-color:#fff;
+    border: 2px solid #b4b4b4;
+    cursor: pointer;
+}
+#Agent_log-in {
+    padding: 11px 16px;
+    border-radius: 5px;
+    background-color:#fff;
+    border: 2px solid #b4b4b4;
+    cursor: pointer;
+}
+.arrows{
+    border: 1px solid #e2e2e2;
+    padding: 10px;
+    border-radius: 50%;
+}
+/* Styling Headings */
+.heading{
+    font-size: x-large;
+    line-height: 80px;
+}
+h2>span{
+    display: inline-block;
+    margin-right:10px;
+}
+.heading span:first-child{
+    color: #01BB0A;
+}
+.heading span:nth-child(2){
+    color:#FB792B;
+}
+.heading span:last-child{
+    color:#213D77;
+}
+/* Buttons section of book PNR etc styling */
+.Status button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 50px 0;
+    cursor: pointer;
+}
+.Status{
+    /* width: 600px;
+    height: 45px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.book{
+    padding: 11px 16px;
+    border-radius: 5px;
+    color: #fff;
+    background-color:#213D77;
+    border: 2px solid #b4b4b4;
+}
+.pnr,.chart{
+    padding: 11px 16px;
+    border-radius: 5px;
+    background-color:#fff;
+    border: 2px solid #b4b4b4;
+}
+/* styling main section */
+.card-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height: 120px;
+    border: 1px solid #e1e1e1;
+    padding: 30px;
+    border-radius: 10px;
+}
+.card-one p{
+    display: block;
+    display: flex;
+    align-items: center;
+}
+.card-one h3{
+    display: block;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    gap: 10px;
+}
+/* Card two styling */
+.card-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height: 120px;
+    border: 1px solid #e1e1e1;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.card-two p{
+    display: block;
+    display: flex;
+    align-items: center;
+}
+.card-two h3{
+    display: block;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    gap: 10px;
+}
+/* more */
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cards div:last-child{
+    line-height: 30px;
+}
+.cards-two div:last-child{
+    line-height: 30px;
+}
+.cards-two{
+    display: flex;
+    gap: 20px;
+}
+/* Search Button */
+.search-button{
+    margin-top: 50px;
+}
+
+.search-button button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 160px;
+    font-size: 25px;
+    background-color:#01BB0A;
+    border-radius: 10px;
+    color: #fff;
+    width: 600px; 
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}

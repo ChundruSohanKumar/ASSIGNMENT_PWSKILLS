@@ -1,0 +1,13 @@
+
+CSS Flex Property :- css flex Property use to aline element in one dimensional layout when we use this Property
+        there are two axis x and y so default that is x axis is called as main axis and y axis is called as
+        cross axis. but we can reverse and change main axis and cross axis using other Properties of Flex
+        flex is used to design simple layout also flex have that capability to make complex layout as well
+        but most developer use grid for that
+
+
+CSS Grid Property :- css grid is work in two dimensional layout and it use to make complex layout we can use flex for that 
+            but in grid we can make those layout in less code and easy way and also in grid we can make design by row and
+            columns so it is very easy to understand basically its very powerful. and most important thing that Grid
+            have more browser support as compare to grind
+                    

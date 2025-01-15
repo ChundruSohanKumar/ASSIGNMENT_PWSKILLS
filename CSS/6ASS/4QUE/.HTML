@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a grid based layout</title>
+    <!-- CSS -->
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            overflow: auto;
+        }
+        html,body{
+            height: 100vh;
+            width: 100vw;
+            font-family: sans-serif;
+            color: #fff;
+        }
+        .box1{
+           background-color:red;
+           padding: 10px;
+        }
+        .box2{
+            background-color:green;
+            padding: 10px;
+        }
+        .box3{
+            background-color:blue;
+            padding: 10px;
+        }
+        .box4{
+            background-color:orange;  
+            padding: 10px;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            height: 100vh;
+            margin: 10px;
+            gap: 10px;
+            text-align: center;
+        }
+
+        @media (max-width:600px) {
+            .container{
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">Box 1</div>
+        <div class="box2">Box 2</div>
+        <div class="box3">Box 3</div>
+        <div class="box4">Box 4</div>
+    </div>
+</body>
+</html>
