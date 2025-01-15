@@ -1,0 +1,17 @@
+
+** meta tags benefits  -
+
+- There are so many benefits of meta tags they if i talk about mostly used meta tags that is meta viewport and character 
+  encoding that is UTF 8/16 etc these are commonly used meta tags 
+
+  UTF 8/16 - this meta attribute helps to render emojis and symbols on web page 
+
+  viewport - this meta tag help to set a width of our website according to different devices having different
+             screen width sometime we use mobile in landscape of this meta tag try to adjust our website according
+             to the screen width at initial scale 1.0 
+
+ there are more meta tags which help us in SEO 
+ for example this meta tag 
+
+ <meta name="description" content="crash course web development">
+ <meta name="keywords" content="HTML, CSS, Javascript, ReactJs">
