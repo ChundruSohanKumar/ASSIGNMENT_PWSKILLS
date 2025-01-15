@@ -1,0 +1,17 @@
+
+1) POINT [1] define accessibility -
+
+ so in the context of web development accessibility means how can we our   
+ website more accessible to different types of peoples having some kind of
+ disability may be they are color blind , totally blind , not able hear anything etc
+ 
+
+
+2) POINT [2-3] why it's essential and how its beneficial -
+
+here is the example why it essential let just say we have someone who not able to 
+see i mean its blind so if they use screen reader to understand about context
+of our website then our website needs to accessible by that screen reader software/hardware
+for that we use semantic tags , aria tags , we can provide extra context about text , images
+there are lot of things we can do apart form this we can also test our website in screen reader 
+etc so thats why its essential and beneficial 

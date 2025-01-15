@@ -1,0 +1,20 @@
+
+* 3 ways to improve accessibility -
+
+1) Proper using Semantic tags - 
+      to make our more accessible to different types of peoples then we have use Semantic
+      in a proper way to make our website more accessible and its also help us in section
+    
+2) Providing extra context about image -
+      as we screen can not read images so make accessible we need to use those extra attributes 
+      so as that we can provide extra context as well as screen reader also read that text
+      aria tag , alt tag etc are useful
+
+3) Use aria tags -
+       for element are not readable by screen reader so we can also make it more accessible
+       using aria tag so as that blind people also understand
+
+4) improving color styling - 
+       for those peoples having color blind issue for them we can make our website more accessible
+       using right color combination and right styling so as they also understand the context of website
+ 

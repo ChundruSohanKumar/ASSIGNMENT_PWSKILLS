@@ -1,0 +1,22 @@
+
+// List of features of HTML 5
+
+1) Semantic tag - Previously Semantic tag are not there in HTML but as we know top section is called
+                  header same like bottom section we called as footer so in HTML5 we have this type of tags
+                  its exactly behave like a division tag and also readability improve there are so many tag
+                  for example. section , article , aside etc
+
+2) Video support - old version of HTML not support Video but HTML5 support this tag
+
+3) Audio support - old version of HTML not support audio tag but HTML5 support this tag
+
+4) SVG support - old version of HTML not support SVG but HTML5 support this 
+
+5) more input support - old version of HTML not support email , date etc but in HTML 5 
+                        support this
+
+6) canvas support - old version of html not support Canvas but now it supports
+
+7) drag and drop - Previously we cannot able drag and drop our files but in HTML 5 is supports
+
+8) accessibility - in HTML 5 we have aria tag to improve accessibility of our web site

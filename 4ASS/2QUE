@@ -1,0 +1,16 @@
+
+* What is HTML entities  - in HTML some symbols are predefined as syntax but in case we have to use those
+                           and in other there are some signs or symbols that we need for our website so 
+                           we can't write them directly, instead of this we will define a character reference.
+                           For example if I want to show the symbol &copy; we can use like this 
+
+
+* 5 commonly used HTML entities -
+
+1) copyright symbol           ( &copy; ) 
+2) registered trademark       ( &reg;  ) 
+3) non-breaking space         ( &nbsp; ) 
+4) less than                  ( &lt; ) 
+5) greater than               ( &gt; ) 
+6) ampersand                  ( &amp;  )
+7) euro                       ( &euro; )
