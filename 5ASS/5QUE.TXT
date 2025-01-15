@@ -1,0 +1,15 @@
+
+Favicon -
+
+it's also called "favorite icon" we use this with our website title and various places 
+on our website it can be small square shape logo that represent our website 
+this is how we use in head tag 
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+
+Example :- 
+
+Let see i have website like pw skills which sell courses to students
+so we can create small favicon that represent our brand that is pw skills
+it can be shown at browser tab , bookmark etc 
