@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <!-- CSS -->
+    <style>
+        input{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sign-up">
+    <form action="">
+    <label for="first_Name">First Name</label>
+    <input type="text" name="first_Name" id="first_Name" minlength="3" required>
+     <br>
+    <label for="last_Name"> Last Name</label>
+    <input type="text" name="last_Name" id="last_Name" minlength="3" required>
+    <br>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" minlength="3" required>
+    <br>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" minlength="6" required>
+    <br>
+    <label for="conferm_password">Confirm Password</label>
+    <input type="password" name="conferm_password" id="conferm_password" minlength="6" required>
+    <br>
+    <label for="age">Age</label>
+    <input type="number" name="age" id="age" min="0" max="150" required>
+    <br>
+    <label for="gender" >Gender</label>
+     <select name="Gender" id="Gender" required >
+     <option value="select_gender" disabled selected>select</option>
+     <option value="Male">Male</option>
+     <option value="female">Female</option>
+     <option value="Other">Other</option>
+     </select>
+    <br>
+    <input type="checkbox" name="Terms" required>
+    <label for="check_box ">I agree to the terms and conditions</label>
+    <br>
+    <input type="submit" value="Sign Up"required>
+   </form>
+</div> 
+</body>
+</html>
